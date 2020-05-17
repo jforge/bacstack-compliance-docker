@@ -1,5 +1,33 @@
 {
   "name": "bacstack-compliance-docker",
-  "version": "0.1.1",
-  "description": "A BACNET device (server) simulator as Docker container."
+  "version": "0.1.2",
+  "description": "A BACNET device (server) simulator as Docker container.",
+  "scripts": {
+    "release": "standard-version -a",
+    "release:beta": "standard-version --prerelease beta",
+    "release:alpha": "standard-version --prerelease alpha"
+  },
+  "author": {
+    "name": "Fabio Huser",
+    "email": "fabio@fh1.ch"
+  },
+  "contributors": [
+    {
+      "name": "Klaus Landsdorf",
+      "email": "klaus.landsdorf@iniationware.com",
+      "url": "https://iniationware.com/"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BiancoRoyal/bacstack-compliance-docker/issues"
+  },
+  "homepage": "https://github.com/BiancoRoyal/bacstack-compliance-docker#readme",
+  "devDependencies": {
+    "standard-version": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiancoRoyal/bacstack-compliance-docker.git"
+  }
 }
