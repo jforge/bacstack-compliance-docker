@@ -1,7 +1,7 @@
 FROM debian:9-slim
 
 # Environment variables
-ENV BACNET_STACK_VERSION 0.8.5
+ENV BACNET_STACK_VERSION 0.8.6
 ENV BACNET_DEVICE_INSTANCE 1234
 
 # Install dependencies
